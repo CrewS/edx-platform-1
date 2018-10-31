@@ -869,7 +869,7 @@ def watch_assets(options):
     observer.start()
 
     # Run the Webpack file system watcher too
-    execute_webpack_watch(settings=Env.DEVSTACK_SETTINGS)
+    # execute_webpack_watch(settings=Env.DEVSTACK_SETTINGS)
 
     if not getattr(options, 'background', False):
         # when running as a separate process, the main thread needs to loop
