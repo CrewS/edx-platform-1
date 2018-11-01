@@ -188,10 +188,9 @@
 }
 
 // Profile
-// .content-wrapper{ 
-//   // margin-top: 20px;
-//   // margin-bottom: 20px;
-// }
+.content-wrapper{ 
+  padding-bottom: 20px;
+}
 .view-profile .content-wrapper{ 
   // margin-top: 20px;
   margin-bottom: 20px;
@@ -352,4 +351,8 @@ body.view-in-course .container .course-wrapper, body.view-in-course .profile-wra
     position: relative;
     left: -20px;
   }
+}
+
+body.view-in-course .container{ 
+  padding-bottom: 20px;
 }
