@@ -1119,3 +1119,73 @@ SMS_API = AUTH_TOKENS.get('SMS_API','')
 SMS_API_BY_LINKGROUP = AUTH_TOKENS.get('SMS_API_BY_LINKGROUP','')
 SMS_API_URL = ENV_TOKENS.get('SMS_API_URL','')
 SMS_API_URL_BY_LINKGROUP = ENV_TOKENS.get('SMS_API_URL_BY_LINKGROUP','')
+
+ALIPAY_INFO = {
+        "basic_info":{
+            "KEY": "cpuhmaigjv2k405hjh1tuxkf5qvxa4x3",
+            "PARTNER": "2088521102226735",
+            "SELLER_EMAIL": "support@eliteu.cn"
+        },
+        "other_info":{
+            "INPUT_CHARSET": "utf-8",
+            "INPUT_DIRECT_CHARSET": "gbk",
+            "SIGN_TYPE": "MD5",
+            "RETURN_URL": "http://crews.ngrok.elitemc.cn/api/v1/payments/alipay/alipaysuccess/",
+            "NOTIFY_URL": "http://crews.ngrok.elitemc.cn/api/v1/payments/alipay/alipayasyncnotify/",
+            "PAY_RESULT_URL": "http://crews.ngrok.elitemc.cn/vip/pay/result",
+            "REFUND_NOTIFY_URL": "https://beta.eliteu.cn/shoppinglist/alipay/alipayrefundasyncnotify",
+            "SHOW_URL": "",
+            "ERROR_NOTIFY_URL": "https://beta.eliteu.cn/shoppinglist/alipay/errornotify/",
+            "TRANSPORT": "https",
+            "DEFAULT_BANK": "CITIC-DEBIT",
+            "IT_B_PAY": "2d",
+            "REFUND_URL": "refund_fastpay_by_platform_pwd"
+        }
+}
+ALIPAY_APP_INFO = {
+        "basic_info":{
+            "KEY": "cpuhmaigjv2k405hjh1tuxkf5qvxa4x3",
+            "PARTNER": "2088521102226735",
+            "SELLER_EMAIL": "support@eliteu.cn"
+        },
+        "other_info":{
+            "INPUT_CHARSET": "utf-8",
+            "INPUT_DIRECT_CHARSET": "gbk",
+            "SIGN_TYPE": "MD5",
+            "RETURN_URL": "http://crews.ngrok.elitemc.cn/api/v1/payments/alipay/alipaysuccess/",
+            "NOTIFY_URL": "http://crews.ngrok.elitemc.cn/api/v1/payments/alipay/alipayasyncnotify/",
+            "PAY_RESULT_URL": "http://crews.ngrok.elitemc.cn/vip/pay/result",
+            "REFUND_NOTIFY_URL": "https://beta.eliteu.cn/shoppinglist/alipay/alipayrefundasyncnotify",
+            "SHOW_URL": "",
+            "ERROR_NOTIFY_URL": "https://beta.eliteu.cn/shoppinglist/alipay/errornotify/",
+            "TRANSPORT": "https",
+            "DEFAULT_BANK": "CITIC-DEBIT",
+            "IT_B_PAY": "2d",
+            "REFUND_URL": "refund_fastpay_by_platform_pwd"
+        }
+}
+WECHAT_PAY_INFO = {
+        "basic_info":{
+            "APPID": "wx4aea41571f7d47e1",
+            "APPSECRET": "5ff2ef73c8121f475566002638388894",
+            "MCHID": "1402026402",
+            "KEY": "skUiw9018IIjks8UshjskQ2329Sss9P1",
+            "ACCESS_TOKEN": "elitemc130530"
+        },
+        "other_info":{
+            "BUY_COURSES_SUCCESS_TEMPLATE_ID": "Hep0RcMm6UAHzTyKhGqmb8Yc0SMkGWp2OO8o3C27KX4",
+            "BUY_COURSES_SUCCESS_HREF_URL": "http://crews.ngrok.elitemc.cn",
+            "COIN_SUCCESS_TEMPLATE_ID": "irFsJMs3FZBOmuWkT-EIRCM8X55ae7H2bZM0AYhRR-Q",
+            "COIN_SUCCESS_HREF_URL": "http://crews.ngrok.elitemc.cn",
+            "SERVICE_TEL": "020-38773780",
+            "NOTIFY_URL": "http://crews.ngrok.elitemc.cn/api/v1/payments/wechat/wechatasyncnotify/",
+            "JS_API_CALL_URL": "",
+            "SSLCERT_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_cert.pem",
+            "SSLKEY_PATH": "/edx/app/edxapp/edx-platform/common/djangoapps/wechat_pay/cacert/apiclient_key.pem"
+        }
+}
+ENABLE_COMPREHENSIVE_THEMING = True
+COMPREHENSIVE_THEME_DIRS = ["/edx/app/edxapp/edx-platform/themes"]
+THEME_NAME = "normal-theme"
+
+
